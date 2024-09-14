@@ -6,21 +6,214 @@
 	objectVersion = 56;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EA7BE3912C8B806500F66890 /* SimplePlayAudio_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7BE3902C8B806500F66890 /* SimplePlayAudio_iOSApp.swift */; };
+		EA7BE3932C8B806500F66890 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7BE3922C8B806500F66890 /* ContentView.swift */; };
+		EA7BE3952C8B806600F66890 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA7BE3942C8B806600F66890 /* Assets.xcassets */; };
+		EA7BE3982C8B806600F66890 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA7BE3972C8B806600F66890 /* Preview Assets.xcassets */; };
+		EA7BE3A32C8B808300F66890 /* SimplePlayAudio_macOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7BE3A22C8B808300F66890 /* SimplePlayAudio_macOSApp.swift */; };
+		EA7BE3A52C8B808300F66890 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7BE3A42C8B808300F66890 /* ContentView.swift */; };
+		EA7BE3A72C8B808300F66890 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA7BE3A62C8B808300F66890 /* Assets.xcassets */; };
+		EA7BE3AA2C8B808300F66890 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA7BE3A92C8B808300F66890 /* Preview Assets.xcassets */; };
+		EA7BE3B42C8B830300F66890 /* PlayAudioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7BE3B32C8B830300F66890 /* PlayAudioView.swift */; };
+		EA7BE3B52C8B830300F66890 /* PlayAudioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7BE3B32C8B830300F66890 /* PlayAudioView.swift */; };
+		EA7BE3B82C8B8AC500F66890 /* AppVoiceFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7BE3B72C8B8AC500F66890 /* AppVoiceFlow.swift */; };
+		EA7BE3B92C8B8AC500F66890 /* AppVoiceFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7BE3B72C8B8AC500F66890 /* AppVoiceFlow.swift */; };
+		EA7BE3BD2C8B8C9F00F66890 /* STVoiceFlowKit-SP in Frameworks */ = {isa = PBXBuildFile; productRef = EA7BE3BC2C8B8C9F00F66890 /* STVoiceFlowKit-SP */; };
+		EA7BE3BF2C8B8CBB00F66890 /* STVoiceFlowKit-SP in Frameworks */ = {isa = PBXBuildFile; productRef = EA7BE3BE2C8B8CBB00F66890 /* STVoiceFlowKit-SP */; };
+		EA7BE3C52C8B9DD800F66890 /* Data in Resources */ = {isa = PBXBuildFile; fileRef = EA7BE3C42C8B9DD800F66890 /* Data */; };
+		EA7BE3C62C8B9DD800F66890 /* Data in Resources */ = {isa = PBXBuildFile; fileRef = EA7BE3C42C8B9DD800F66890 /* Data */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA7BE38D2C8B806500F66890 /* SimplePlayAudio-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SimplePlayAudio-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA7BE3902C8B806500F66890 /* SimplePlayAudio_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplePlayAudio_iOSApp.swift; sourceTree = "<group>"; };
+		EA7BE3922C8B806500F66890 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EA7BE3942C8B806600F66890 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA7BE3972C8B806600F66890 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EA7BE3A02C8B808300F66890 /* SimplePlayAudio-macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SimplePlayAudio-macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA7BE3A22C8B808300F66890 /* SimplePlayAudio_macOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplePlayAudio_macOSApp.swift; sourceTree = "<group>"; };
+		EA7BE3A42C8B808300F66890 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EA7BE3A62C8B808300F66890 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA7BE3A92C8B808300F66890 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EA7BE3AB2C8B808300F66890 /* SimplePlayAudio_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SimplePlayAudio_macOS.entitlements; sourceTree = "<group>"; };
+		EA7BE3B32C8B830300F66890 /* PlayAudioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayAudioView.swift; sourceTree = "<group>"; };
+		EA7BE3B72C8B8AC500F66890 /* AppVoiceFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppVoiceFlow.swift; sourceTree = "<group>"; };
+		EA7BE3C42C8B9DD800F66890 /* Data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Data; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA7BE38A2C8B806500F66890 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA7BE3BD2C8B8C9F00F66890 /* STVoiceFlowKit-SP in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA7BE39D2C8B808300F66890 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA7BE3BF2C8B8CBB00F66890 /* STVoiceFlowKit-SP in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
 /* Begin PBXGroup section */
 		EA7BE3822C8B7FB600F66890 = {
 			isa = PBXGroup;
 			children = (
+				EA7BE3AF2C8B80E600F66890 /* Shared */,
+				EA7BE38F2C8B806500F66890 /* SimplePlayAudio-iOS */,
+				EA7BE3A12C8B808300F66890 /* SimplePlayAudio-macOS */,
+				EA7BE38E2C8B806500F66890 /* Products */,
+				EA7BE3BB2C8B8C9F00F66890 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
+		EA7BE38E2C8B806500F66890 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA7BE38D2C8B806500F66890 /* SimplePlayAudio-iOS.app */,
+				EA7BE3A02C8B808300F66890 /* SimplePlayAudio-macOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA7BE38F2C8B806500F66890 /* SimplePlayAudio-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EA7BE3902C8B806500F66890 /* SimplePlayAudio_iOSApp.swift */,
+				EA7BE3922C8B806500F66890 /* ContentView.swift */,
+				EA7BE3942C8B806600F66890 /* Assets.xcassets */,
+				EA7BE3962C8B806600F66890 /* Preview Content */,
+			);
+			path = "SimplePlayAudio-iOS";
+			sourceTree = "<group>";
+		};
+		EA7BE3962C8B806600F66890 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EA7BE3972C8B806600F66890 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EA7BE3A12C8B808300F66890 /* SimplePlayAudio-macOS */ = {
+			isa = PBXGroup;
+			children = (
+				EA7BE3A22C8B808300F66890 /* SimplePlayAudio_macOSApp.swift */,
+				EA7BE3A42C8B808300F66890 /* ContentView.swift */,
+				EA7BE3A62C8B808300F66890 /* Assets.xcassets */,
+				EA7BE3AB2C8B808300F66890 /* SimplePlayAudio_macOS.entitlements */,
+				EA7BE3A82C8B808300F66890 /* Preview Content */,
+			);
+			path = "SimplePlayAudio-macOS";
+			sourceTree = "<group>";
+		};
+		EA7BE3A82C8B808300F66890 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EA7BE3A92C8B808300F66890 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EA7BE3AF2C8B80E600F66890 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				EA7BE3C42C8B9DD800F66890 /* Data */,
+				EA7BE3B22C8B82B700F66890 /* Views */,
+				EA7BE3B02C8B818100F66890 /* Models */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		EA7BE3B02C8B818100F66890 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EA7BE3B72C8B8AC500F66890 /* AppVoiceFlow.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EA7BE3B22C8B82B700F66890 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EA7BE3B32C8B830300F66890 /* PlayAudioView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EA7BE3BB2C8B8C9F00F66890 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA7BE38C2C8B806500F66890 /* SimplePlayAudio-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA7BE3992C8B806600F66890 /* Build configuration list for PBXNativeTarget "SimplePlayAudio-iOS" */;
+			buildPhases = (
+				EA7BE3892C8B806500F66890 /* Sources */,
+				EA7BE38A2C8B806500F66890 /* Frameworks */,
+				EA7BE38B2C8B806500F66890 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SimplePlayAudio-iOS";
+			packageProductDependencies = (
+				EA7BE3BC2C8B8C9F00F66890 /* STVoiceFlowKit-SP */,
+			);
+			productName = "SimplePlayAudio-iOS";
+			productReference = EA7BE38D2C8B806500F66890 /* SimplePlayAudio-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA7BE39F2C8B808300F66890 /* SimplePlayAudio-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA7BE3AC2C8B808300F66890 /* Build configuration list for PBXNativeTarget "SimplePlayAudio-macOS" */;
+			buildPhases = (
+				EA7BE39C2C8B808300F66890 /* Sources */,
+				EA7BE39D2C8B808300F66890 /* Frameworks */,
+				EA7BE39E2C8B808300F66890 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SimplePlayAudio-macOS";
+			packageProductDependencies = (
+				EA7BE3BE2C8B8CBB00F66890 /* STVoiceFlowKit-SP */,
+			);
+			productName = "SimplePlayAudio-macOS";
+			productReference = EA7BE3A02C8B808300F66890 /* SimplePlayAudio-macOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		EA7BE3832C8B7FB600F66890 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					EA7BE38C2C8B806500F66890 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					EA7BE39F2C8B808300F66890 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
 			};
 			buildConfigurationList = EA7BE3862C8B7FB600F66890 /* Build configuration list for PBXProject "SimplePlayAudio" */;
 			compatibilityVersion = "Xcode 14.0";
@@ -31,12 +224,66 @@
 				Base,
 			);
 			mainGroup = EA7BE3822C8B7FB600F66890;
+			packageReferences = (
+				EA7BE3BA2C8B8B7C00F66890 /* XCRemoteSwiftPackageReference "STVoiceFlowKit-SP" */,
+			);
+			productRefGroup = EA7BE38E2C8B806500F66890 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				EA7BE38C2C8B806500F66890 /* SimplePlayAudio-iOS */,
+				EA7BE39F2C8B808300F66890 /* SimplePlayAudio-macOS */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA7BE38B2C8B806500F66890 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA7BE3982C8B806600F66890 /* Preview Assets.xcassets in Resources */,
+				EA7BE3952C8B806600F66890 /* Assets.xcassets in Resources */,
+				EA7BE3C52C8B9DD800F66890 /* Data in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA7BE39E2C8B808300F66890 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA7BE3AA2C8B808300F66890 /* Preview Assets.xcassets in Resources */,
+				EA7BE3A72C8B808300F66890 /* Assets.xcassets in Resources */,
+				EA7BE3C62C8B9DD800F66890 /* Data in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA7BE3892C8B806500F66890 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA7BE3B82C8B8AC500F66890 /* AppVoiceFlow.swift in Sources */,
+				EA7BE3B42C8B830300F66890 /* PlayAudioView.swift in Sources */,
+				EA7BE3932C8B806500F66890 /* ContentView.swift in Sources */,
+				EA7BE3912C8B806500F66890 /* SimplePlayAudio_iOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA7BE39C2C8B808300F66890 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA7BE3B92C8B8AC500F66890 /* AppVoiceFlow.swift in Sources */,
+				EA7BE3B52C8B830300F66890 /* PlayAudioView.swift in Sources */,
+				EA7BE3A52C8B808300F66890 /* ContentView.swift in Sources */,
+				EA7BE3A32C8B808300F66890 /* SimplePlayAudio_macOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
 		EA7BE3872C8B7FB600F66890 /* Debug */ = {
@@ -48,6 +295,333 @@
 		EA7BE3882C8B7FB600F66890 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+			};
+			name = Release;
+		};
+		EA7BE39A2C8B806600F66890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_ASSET_PATHS = "\"SimplePlayAudio-iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 4DS7U8G39Y;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This application may use the micropphone to collect user input";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.speechtiles.SimplePlayAudio-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA7BE39B2C8B806600F66890 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_ASSET_PATHS = "\"SimplePlayAudio-iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 4DS7U8G39Y;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This application may use the micropphone to collect user input";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.speechtiles.SimplePlayAudio-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA7BE3AD2C8B808300F66890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = "SimplePlayAudio-macOS/SimplePlayAudio_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_ASSET_PATHS = "\"SimplePlayAudio-macOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 4DS7U8G39Y;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.speechtiles.SimplePlayAudio-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EA7BE3AE2C8B808300F66890 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = "SimplePlayAudio-macOS/SimplePlayAudio_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_ASSET_PATHS = "\"SimplePlayAudio-macOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 4DS7U8G39Y;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.speechtiles.SimplePlayAudio-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -63,7 +637,49 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		EA7BE3992C8B806600F66890 /* Build configuration list for PBXNativeTarget "SimplePlayAudio-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA7BE39A2C8B806600F66890 /* Debug */,
+				EA7BE39B2C8B806600F66890 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA7BE3AC2C8B808300F66890 /* Build configuration list for PBXNativeTarget "SimplePlayAudio-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA7BE3AD2C8B808300F66890 /* Debug */,
+				EA7BE3AE2C8B808300F66890 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EA7BE3BA2C8B8B7C00F66890 /* XCRemoteSwiftPackageReference "STVoiceFlowKit-SP" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/speechtiles/STVoiceFlowKit-SP";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EA7BE3BC2C8B8C9F00F66890 /* STVoiceFlowKit-SP */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EA7BE3BA2C8B8B7C00F66890 /* XCRemoteSwiftPackageReference "STVoiceFlowKit-SP" */;
+			productName = "STVoiceFlowKit-SP";
+		};
+		EA7BE3BE2C8B8CBB00F66890 /* STVoiceFlowKit-SP */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EA7BE3BA2C8B8B7C00F66890 /* XCRemoteSwiftPackageReference "STVoiceFlowKit-SP" */;
+			productName = "STVoiceFlowKit-SP";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EA7BE3832C8B7FB600F66890 /* Project object */;
 }

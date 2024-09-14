@@ -1,0 +1,45 @@
+[
+    {
+        "id": "VF_START",
+        "type": "node",
+        "name": "PlayAudio_VF_START",
+        "goTo": {
+            "DEFAULT": "VFM_PlayIntroAudio",
+        },
+    },
+    
+    {
+        "id": "VFM_PlayIntroAudio",
+        "type": "playAudio",
+        "name": "PlayIntroAudio",
+        "playAudioParams": {
+            "style": "single",
+            "promptID": "P_Intro-Multiple-OneVFM",
+        },
+        "goTo": {
+            "DEFAULT": "VFM_Multiple-Audio",
+        },
+    },
+    
+    {
+        "id": "VFM_Multiple-Audio",
+        "type": "playAudio",
+        "name": "PlayMultipleAudio",
+        "playAudioParams": {
+            "style": "single",
+            "promptID": "P_Multiple-Audio",
+        },
+        "goTo": {
+            "DEFAULT": "VF_END",
+        },
+    },
+    
+    {
+        "id": "VF_END",
+        "type": "node",
+        "name": "PlayAudio_VF_END",
+        "goTo": {
+            "DEFAULT": "",
+        },
+    },
+]

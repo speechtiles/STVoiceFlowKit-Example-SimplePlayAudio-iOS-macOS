@@ -1,0 +1,85 @@
+[
+    {
+        "id": "VF_START",
+        "type": "node",
+        "name": "PlayAudio_VF_START",
+        "goTo": {
+            "DEFAULT": "VFM_PlayIntroAudio",
+        },
+    },
+    
+    {
+        "id": "VFM_PlayIntroAudio",
+        "type": "playAudio",
+        "name": "PlayIntroAudio",
+        "playAudioParams": {
+            "style": "single",
+            "promptID": "P_Intro-Multiple",
+        },
+        "goTo": {
+            "DEFAULT": "P_Wave-Audio",
+        },
+    },
+    
+    {
+        "id": "P_Wave-Audio",
+        "type": "playAudio",
+        "name": "Wave-Audio-Playback",
+        "playAudioParams": {
+            "style": "single",
+            "promptID": "P_Wave-Audio",
+        },
+        "goTo": {
+            "DEFAULT": "P_M4A-Audio",
+        },
+    },
+    
+    {
+        "id": "P_M4A-Audio",
+        "type": "playAudio",
+        "name": "M4A-Audio-Playback",
+        "playAudioParams": {
+            "style": "single",
+            "promptID": "P_M4A-Audio",
+        },
+        "goTo": {
+            "DEFAULT": "P_MP3-Audio",
+        },
+    },
+    
+    {
+        "id": "P_MP3-Audio",
+        "type": "playAudio",
+        "name": "MP3-Audio-Playback",
+        "playAudioParams": {
+            "style": "single",
+            "promptID": "P_MP3-Audio",
+        },
+        "goTo": {
+            "DEFAULT": "P_PCM-Audio",
+        },
+    },
+    
+    {
+        "id": "P_PCM-Audio",
+        "type": "playAudio",
+        "name": "PCM-Audio-Playback",
+        "playAudioParams": {
+            "style": "single",
+            "promptID": "P_PCM-Audio",
+        },
+        "goTo": {
+            "DEFAULT": "VF_END",
+        },
+    },
+    
+    {
+        "id": "VF_END",
+        "type": "node",
+        "name": "PlayAudio_VF_END",
+        "goTo": {
+            "DEFAULT": "",
+        },
+    },
+]
+

@@ -1,0 +1,64 @@
+[
+    {
+        "id": "P_Intro-Single",
+        "style": "single",
+        "audioFile": "P_Intro-Single.wav",
+    },
+    {
+        "id": "P_Intro-Multiple",
+        "style": "single",
+        "audioFile": "P_Intro-Multiple.wav",
+    },
+    {
+        "id": "P_Intro-Multiple-OneVFM",
+        "style": "single",
+        "audioFile": "P_Intro-Multiple-OneVFM.wav",
+    },
+    {
+        "id": "P_Wave-Audio",
+        "style": "single",
+        "audioFile": "P_Wave-Audio.wav",
+    },
+    {
+        "id": "P_M4A-Audio",
+        "style": "single",
+        "audioFile": "P_M4A-Audio.m4a",
+        "audioPlaybackParams": {
+            "audioFormat": "media"
+        },
+    },
+    {
+        "id": "P_MP3-Audio",
+        "style": "single",
+        "audioFile": "P_MP3-Audio.mp3",
+        "audioPlaybackParams": {
+            "audioFormat": "media"
+        },
+    },
+    {
+        "id": "P_PCM-Audio",
+        "style": "single",
+        "audioFile": "P_PCM-Audio.pcm",
+        "audioPlaybackParams": {
+            "audioFormat": "pcm_48khz"
+        },
+    },
+    {
+        "id": "P_Multiple-Audio",
+        "style": "combo",
+        "promptCollection": [
+            {
+                "promptID": "P_Wave-Audio",
+            },
+            {
+                "promptID": "P_M4A-Audio",
+            },
+            {
+                "promptID": "P_MP3-Audio",
+            },
+            {
+                "promptID": "P_PCM-Audio",
+            },
+        ],
+    },
+]
