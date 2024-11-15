@@ -26,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EA2502D62CE7B45200988D59 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		EA2502D72CE7B45200988D59 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		EA7BE38D2C8B806500F66890 /* SimplePlayAudio-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SimplePlayAudio-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA7BE3902C8B806500F66890 /* SimplePlayAudio_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplePlayAudio_iOSApp.swift; sourceTree = "<group>"; };
 		EA7BE3922C8B806500F66890 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -65,6 +67,8 @@
 		EA7BE3822C8B7FB600F66890 = {
 			isa = PBXGroup;
 			children = (
+				EA2502D62CE7B45200988D59 /* LICENSE */,
+				EA2502D72CE7B45200988D59 /* README.md */,
 				EA7BE3AF2C8B80E600F66890 /* Shared */,
 				EA7BE38F2C8B806500F66890 /* SimplePlayAudio-iOS */,
 				EA7BE3A12C8B808300F66890 /* SimplePlayAudio-macOS */,

@@ -1,0 +1,10 @@
+P_Intro-Single.wav: "This voice flow executes audio playback of a single wave file."
+P_Intro-Multiple.wav: "This voice flow executes audio playback of multiple audio files with different audio formats."
+P_Intro-Multiple-OneVFM.wav: "This voice flow executes audio playback of multiple audio files using one Voiceflow module."
+
+P_Wave-Audio.wav: "This the audio playback of a Wave file."
+P_M4A-Audio.wav: "This the audio playback of an M4A file."
+P_MP3-Audio.wav: "This is the audio playback of an MP3 file."
+P_PCM-Audio.wav: "This is the audio playback of a PCM file."
+P_RAW-Audio.wav: "This is the audio playback of a Raw file."
+
