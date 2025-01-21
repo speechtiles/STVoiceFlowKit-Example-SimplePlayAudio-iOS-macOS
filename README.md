@@ -1,46 +1,45 @@
 # STVoiceFlowKit-Example-SimplePlayAudio-iOS-macOS
-Example project to perform simple audio playback using STVoiceFlowKit SDK and sample configured JSON Voiceflows - iOS and macOS.
+ ==========================================================================
+ 
+Example project performs simple audio playback using [STVoiceFlowKit SDK](https://speechtiles.com/developer) and sample configured [JSON Voiceflows](https://speechtiles.com/developerdoc/BZVoiceFlowDoc/macOS-iOS/api/html/index.php) - iOS and macOS.
 
-# STVoiceFlowKit-SP Package for iOS and macOS
- ==============================================================
+The project contains a code example that illustrate how to set up and customize audio playback of recorded audio files. Multiple configuration sample examples are provided that demonstate the ability of changing and customizing audio playback without the need to change code. You can run the SimplePlayAudio app on iOS and macOS.
 
-The Best Way to create engaging conversational speech interfaces for applications on iOS and macOS which blend with other existing application user interfaces. With frameworks provided by STVoiceFlowKit-SP from Speech Tiles you can do the following (and much, much more):
+## Using BZVoiceFlow interface
 
-* Configure multiple Voiceflows for a single application, each Voiceflow to associate with specific application processes, states or views.
-* Configure multiple Voiceflow Modules in each Voiceflow that execute various functionality such a Audio Playback, Audio Recording, Audio Dialog and Audio Listener.
-* Configure automatic transition rules among Voiceflow Modules controlled by application, device events, other application events and multi-modal user input.
-* Configure Voice Prompt Modules for audio playback that reference multiple audio segments pointing to a mix of recorded audio and realtime speech synthesis sources.
-* Provide parameters for fine control over execution of most lower level media tasks: audio playback, audio recording, voice activity detection, echo cancelation, speech recognition, speech synthesis, etc.
-* Select the speech recognition and speech synthesis engines that best suits your application.
-* Select speech synthesis voices dynamically during runtime.
-* Integrate your current application user interfaces with a comprehensive set of real-time Voiceflow event notifications in order to keep the user experience updated.
-* Integrate your application with a powerful bi-directional dynamic data sharing, which allows your application and its Voiceflow processing to adapt and update the user experience in real time.
+This project contains a sample code for:
 
-## License
+* [BZVoiceFlow](https://speechtiles.com/developerdoc/BZVoiceFlowDoc/macOS-iOS/api/html/index.php),  [BZVoiceFlowController](https://speechtiles.com/developerdoc/BZVoiceFlowDoc/macOS-iOS/api/html/Classes/BZVoiceFlowController.php) and [BZVoiceFlowCallback](https://speechtiles.com/developerdoc/BZVoiceFlowDoc/macOS-iOS/api/html/Protocols/BZVoiceFlowCallback.php).
 
-STVoiceFlowKit-SP is commercial software. [Contact our sales team here](https://speechtiles.com/contact-us.php).
+## Configuring VoiceFlows in JSON
 
-BZVoiceFlow and BZMedia are commercial products and each require a license to be used. BZVoiceFlow and BZMedia are targets referenced in STVoiceFlowKit-SP package.
+This project also contains multiple sample Voiceflow JSON configurations for audio playback of recorded audio files:
 
-See LICENSE for the software download, development and evaluation. By downloading and installing STVoiceFlowKit-SP, and by downloading and installing BZMedia or BZVoiceFlow, either directly or through STVoiceFlowKit-SP package, you accept the terms of this license.
+* VF_PlayRecordedAudio_Example-1.json: Audio playback of an introduction (P_Intro-Single.wav) followed by the audio playback of a wave file (P_Wave-Audio.wav)
+* VF_PlayRecordedAudio_Example-2.json: Audio playback of an introduction (P_Intro-Multiple.wav) followed by the audio playback of multiple audio files with differnet formats using multiple Voice Flow modules, each referencing a single recorded audio file (P_Wave-Audio.wav, P_M4A-Audio.m4a, P_MP3-Audio.mp3 and P_PCM-Audio.pcm).
+* VF_PlayRecordedAudio_Example-3.json: Audio playback of an introduction (P_Intro-Multiple-OneVFM.wav) followed by the audio playback of multiple audio files with differnet formats using a single Voice Flow module referencong a single Audio Prompt module which is in turn configured to reference multiple recorded audio files (P_Wave-Audio.wav, P_M4A-Audio.m4a, P_MP3-Audio.mp3 and P_PCM-Audio.pcm).
 
-Once you signed a commercial license, you will need to register your app bundle identifier. [Contact our customers support team here](https://speechtiles.com/developer/support.php). 
+## Requirements
 
-## Installation
+* The latest [XCode](https://developer.apple.com/xcode)
+* The package [STVoiceFlowKit-SP](https://github.com/speechtiles/STVoiceFlowKit-SP)
 
-SPM: https://github.com/SpeechTiles/STVoiceFlowKit-SP.git
 
 ## Getting Started
 
-STVoiceFlowKit-SP comes with two dynamic frameworks, the media layer (BZMedia.xcframework) and the voice flow layer (BZVoiceFlow.xcframework).
+Click on the green “Code” button and select the “Open with Xcode” option.1
+Follow the steps in Xcode to clone and open the project.
+Build and run.
 
-To get started with STVoiceFlowKit-SP we suggest starting with the [BZVoiceFlow Framework Documentation](https://speechtiles.com/developerdoc/BZVoiceFlowDoc/macOS-iOS/api/html/index.php) page. A short overview with Source code snippets on how to start with integrating BZVoiceFlow framework in your application is available as part of the SDK documentation of [BZVoiceFlowController](https://speechtiles.com/developerdoc/BZVoiceFlowDoc/macOS-iOS/api/html/Classes/BZVoiceFlowController.php).
+## License
 
-User guides, source code for complete sample applications accompanied with configured Voiceflows are under development and will be available soon.
+This software is licensed under a [modified BSD license](https://github.com/speechtiles/STVoiceFlowKit-Example-SimplePlayAudio-iOS-macOS/blob/main/LICENSE).
 
-## Support
+## Additional Resources
 
-For questions or to report issues, open a ticket on our [support platform](https://speechtiles.com/developer/support.php). Visit [SpeechTiles.com/developer](https://www.speechTiles.com/developer) to register as a Speech Tiles developer or to access the developer area. Visit [SpeechTiles.com](https://www.speechTiles.com) for the more information.
+* [SpeechTiles Developer](https://www.speechTiles.com/developer)
+* [STVoiceFlow Kit API reference](https://speechtiles.com/developerdoc/BZVoiceFlowDoc/macOS-iOS/api/html/index.php)
+* [Speech Tiles Developer support](https://speechtiles.com/developer/support.php)
 
 Thanks,
 The Speech Tiles Team
