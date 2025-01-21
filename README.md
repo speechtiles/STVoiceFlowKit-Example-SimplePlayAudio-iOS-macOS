@@ -15,9 +15,9 @@ This project contains a sample code for:
 
 This project also contains multiple sample Voiceflow JSON configurations for audio playback of recorded audio files:
 
-* VF_PlayRecordedAudio_Example-1.json: Audio playback of an introduction (P_Intro-Single.wav) followed by the audio playback of a wave file (P_Wave-Audio.wav)
-* VF_PlayRecordedAudio_Example-2.json: Audio playback of an introduction (P_Intro-Multiple.wav) followed by the audio playback of multiple audio files with differnet formats using multiple Voice Flow modules, each referencing a single recorded audio file (P_Wave-Audio.wav, P_M4A-Audio.m4a, P_MP3-Audio.mp3 and P_PCM-Audio.pcm).
-* VF_PlayRecordedAudio_Example-3.json: Audio playback of an introduction (P_Intro-Multiple-OneVFM.wav) followed by the audio playback of multiple audio files with differnet formats using a single Voice Flow module referencong a single Audio Prompt module which is in turn configured to reference multiple recorded audio files (P_Wave-Audio.wav, P_M4A-Audio.m4a, P_MP3-Audio.mp3 and P_PCM-Audio.pcm).
+* **VF_PlayRecordedAudio_Example-1.json**: Audio playback of an introduction (P_Intro-Single.wav) followed by the audio playback of a wave file (P_Wave-Audio.wav)
+* **VF_PlayRecordedAudio_Example-2.json**: Audio playback of an introduction (P_Intro-Multiple.wav) followed by the audio playback of multiple audio files with differnet formats using multiple Voice Flow modules, each referencing a single recorded audio file (P_Wave-Audio.wav, P_M4A-Audio.m4a, P_MP3-Audio.mp3 and P_PCM-Audio.pcm).
+* **VF_PlayRecordedAudio_Example-3.json**: Audio playback of an introduction (P_Intro-Multiple-OneVFM.wav) followed by the audio playback of multiple audio files with differnet formats using a single Voice Flow module referencong a single Audio Prompt module which is in turn configured to reference multiple recorded audio files (P_Wave-Audio.wav, P_M4A-Audio.m4a, P_MP3-Audio.mp3 and P_PCM-Audio.pcm).
 
 ## Requirements
 
@@ -30,6 +30,13 @@ This project also contains multiple sample Voiceflow JSON configurations for aud
 Click on the green “Code” button and select the “Open with Xcode” option.1
 Follow the steps in Xcode to clone and open the project.
 Build and run.
+
+* To switch among the JSON Voice Flows, open the file **PlayAudioFlow.swift** and comment/uncomment the lines as in this example:
+    let voiceFlowURL = "VF_PlayRecordedAudio_Example-1.json"
+    //let voiceFlowURL = "VF_PlayRecordedAudio_Example-2.json"
+    //let voiceFlowURL = "VF_PlayRecordedAudio_Example-3.json"
+    
+* Build and run
 
 ## License
 
