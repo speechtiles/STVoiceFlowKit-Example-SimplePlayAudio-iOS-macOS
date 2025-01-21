@@ -32,7 +32,7 @@ This project also contains multiple sample Voiceflow JSON configurations for aud
 * Build and run.
 
 To switch among the JSON Voice Flows:
-*Open the file **PlayAudioFlow.swift** and comment/uncomment the lines as in this example:
+* Open the file **PlayAudioFlow.swift** and comment/uncomment the lines as in this example:
     let voiceFlowURL = "VF_PlayRecordedAudio_Example-1.json"
     //let voiceFlowURL = "VF_PlayRecordedAudio_Example-2.json"
     //let voiceFlowURL = "VF_PlayRecordedAudio_Example-3.json"
