@@ -1,5 +1,4 @@
 # STVoiceFlowKit-Example-SimplePlayAudio-iOS-macOS
- ==========================================================================
  
 Example project performs simple audio playback using [STVoiceFlowKit SDK](https://speechtiles.com/developer) and sample configured [JSON Voiceflows](https://speechtiles.com/developerdoc/BZVoiceFlowDoc/macOS-iOS/api/html/index.php) - iOS and macOS.
 
@@ -27,7 +26,7 @@ This project also contains multiple sample Voiceflow JSON configurations for aud
 
 ## Getting Started
 
-* Click on the green “Code” button and select the “Open with Xcode” option.
+* Click on the green “Code” button and select the “Open with Xcode” option.<sup>[1](#footnote1)</sup>
 * Follow the steps in Xcode to clone and open the project.
 * Build and run.
 
@@ -49,6 +48,7 @@ This software is licensed under a [modified BSD license](https://github.com/spee
 * [STVoiceFlow Kit API reference](https://speechtiles.com/developerdoc/BZVoiceFlowDoc/macOS-iOS/api/html/index.php)
 * [Speech Tiles Developer support](https://speechtiles.com/developer/support.php)
 
-Thanks,
-The Speech Tiles Team
+---
+
+<a name="footnote1"><sup>1</sup></a> Alternatively, [download the code](https://github.com/speechtiles/STVoiceFlowKit-Example-SimplePlayAudio-iOS-macOS/archive/refs/heads/main.zip) and open `SimplePlayAudio.xcodeproj`.
 
